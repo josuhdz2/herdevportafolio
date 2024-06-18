@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-  <div class="container mt-5 mb-5">
+  <div class="container mt-5 mb-5 fullscreen">
     <div class="text-center p-3">
       <h1>Desarrollador Backend</h1>
     </div>
@@ -34,3 +34,9 @@
     </div>
   </div>
 </template>
+<style>
+.fullscreen{
+  height: 70vh;
+  width: 100vw;
+}
+</style>
